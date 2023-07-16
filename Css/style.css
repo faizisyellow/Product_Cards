@@ -62,9 +62,13 @@ body {
   position: absolute;
   bottom: 0;
   left: 5;
-  width: 80px;
+  width: 0px;
   height: 2px;
   background-color: #f1f1f1;
+  transition: all 0.8s ease-in;
+}
+.container main .card:hover article h4::before {
+  width: 80px;
 }
 .container main .card article span {
   color: #f1f1f1;
